@@ -5,4 +5,6 @@ export enum Statuses {
   approved = "APPROVED",
   closed = "CLOSED",
   rejected = "REJECTED",
+  needsInfo = "NEEDS_INFO",
+  completed = "COMPLETED",
 }

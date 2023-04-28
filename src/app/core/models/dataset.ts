@@ -5,6 +5,8 @@ import { StorageTypes } from "./storage_types";
 
 export interface Dataset {
   id: number,
+  created_at: Date,
+  last_updated: Date,
   name: string,
   owner: string,
   team: string,
@@ -19,5 +21,5 @@ export interface Dataset {
   review_status: Statuses | null,
   partitions: number | null,
   cluster: Clusters,
-  reviewed_by: Admins | null,
+  reviewer: Admins | null,
 }

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 100,
+    "created_at": "2023-04-20",
+    "last_updated": "2023-04-25",
+    "name": "my_dataset01",
+    "owner": "jchan",
+    "team": "missyjcat",
+    "description": "this is sample key/value data used for information on the website",
+    "storage": "READONLY",
+    "qps": {
+      "get": 1000,
+      "set": null,
+      "delete": null
+    },
+    "is_pii": false,
+    "review_status": "COMPLETED",
+    "partitions": 300,
+    "cluster": "READONLY_ALPHA",
+    "reviewer": "hcabalic"
+  },
+  {
+    "id": 101,
+    "created_at": "2023-04-21",
+    "last_updated": "2023-04-25",
+    "name": "my_dataset02",
+    "owner": "jchan",
+    "team": "missyjcat",
+    "description": "this is sample key/value data used for information on the website",
+    "storage": "READONLY",
+    "qps": {
+      "get": 1500,
+      "set": null,
+      "delete": null
+    },
+    "is_pii": false,
+    "review_status": "IN_REVIEW",
+    "partitions": 300,
+    "cluster": "READONLY_BETA",
+    "reviewer": "hcabalic"
+  }
+]
