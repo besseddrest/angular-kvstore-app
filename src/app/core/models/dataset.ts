@@ -11,6 +11,7 @@ export interface Dataset {
   owner: string,
   team: string,
   description: string,
+  data_size_gb: number,
   storage_type: StorageTypes,
   qps: {
     get: number | null,

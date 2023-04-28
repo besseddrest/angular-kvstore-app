@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import { Dataset } from '../../models/dataset';
 
 @Component({
-  selector: 'app-row',
+  selector: 'tr[app-row]',
   templateUrl: './row.component.html',
   styleUrls: ['./row.component.scss']
 })

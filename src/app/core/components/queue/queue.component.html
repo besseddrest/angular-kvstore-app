@@ -1,5 +1,17 @@
-<table>
-  <app-row 
+<table class="queue__table queue__table--all">
+  <tr class="queue__row--headers">
+    <th>ID</th>
+    <th>Name</th>
+    <th>Owner</th>
+    <th>Team</th>
+    <th>Size GB</th>
+    <th>Partitions</th>
+    <th>Cluster</th>
+    <th>Status</th>
+    <th>Reviewer</th>
+  </tr>
+  <tr app-row 
     *ngFor="let dataset of datasets"
-    [dataset]="dataset"></app-row>
+    [dataset]="dataset">
+  </tr>
 </table>

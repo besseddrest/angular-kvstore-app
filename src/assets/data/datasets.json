@@ -8,6 +8,7 @@
     "team": "missyjcat",
     "description": "this is sample key/value data used for information on the website",
     "storage": "READONLY",
+    "data_size_gb": 1500,
     "qps": {
       "get": 1000,
       "set": null,
@@ -28,6 +29,7 @@
     "team": "missyjcat",
     "description": "this is sample key/value data used for information on the website",
     "storage": "READONLY",
+    "data_size_gb": 900,
     "qps": {
       "get": 1500,
       "set": null,

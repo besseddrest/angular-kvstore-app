@@ -1,4 +1,12 @@
-<tr *ngIf="dataset">
+<ng-container *ngIf="dataset">
   <td>{{ dataset.id }}</td>
   <td>{{ dataset.name }}</td>
-</tr>
+  <td>{{ dataset.owner }}</td>
+  <td>{{ dataset.team }}</td>
+  <td>{{ dataset.data_size_gb }}</td>
+  <td>{{ dataset.partitions }}</td>
+  <td>{{ dataset.cluster }}</td>
+  <td>{{ dataset.review_status }}</td>
+  <td>{{ dataset.reviewer }}</td>
+</ng-container>
+
