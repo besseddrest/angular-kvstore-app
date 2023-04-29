@@ -7,14 +7,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/components/header/header.component';
 import { QueueComponent } from './core/components/queue/queue.component';
 import { RowComponent } from './core/components/row/row.component';
+import { RequestComponent } from './core/components/request/request.component';
+import { HomeComponent } from './core/components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
     HeaderComponent,
     QueueComponent,
-    RowComponent
-  ],
+    RowComponent, 
+    RequestComponent, 
+    HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
