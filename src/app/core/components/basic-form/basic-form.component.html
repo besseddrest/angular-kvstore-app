@@ -1,0 +1,13 @@
+<p>basic-form works!</p>
+<form *ngIf="myForm" [formGroup]="myForm">
+  Value: {{ myForm.value | json }}
+  <hr>
+
+  <mat-form-field>
+    <input matInput placeholder="dataset name" formControlName="name" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="owner" formControlName="owner" />
+  </mat-form-field>
+</form>

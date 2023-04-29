@@ -9,6 +9,16 @@ import { QueueComponent } from './core/components/queue/queue.component';
 import { RowComponent } from './core/components/row/row.component';
 import { RequestComponent } from './core/components/request/request.component';
 import { HomeComponent } from './core/components/home/home.component';
+import { BasicFormComponent } from './core/components/basic-form/basic-form.component';
+
+import { ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatChipsModule } from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -17,11 +27,19 @@ import { HomeComponent } from './core/components/home/home.component';
     QueueComponent,
     RowComponent, 
     RequestComponent, 
-    HomeComponent],
+    HomeComponent, 
+    BasicFormComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatSelectModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    MatChipsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
