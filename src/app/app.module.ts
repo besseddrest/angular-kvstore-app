@@ -10,6 +10,7 @@ import { RowComponent } from './core/components/row/row.component';
 import { RequestComponent } from './core/components/request/request.component';
 import { HomeComponent } from './core/components/home/home.component';
 import { BasicFormComponent } from './core/components/basic-form/basic-form.component';
+import { NestedFormComponent } from './core/components/nested-form/nested-form.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -28,7 +29,8 @@ import { MatChipsModule } from '@angular/material/chips';
     RowComponent, 
     RequestComponent, 
     HomeComponent, 
-    BasicFormComponent],
+    BasicFormComponent, 
+    NestedFormComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

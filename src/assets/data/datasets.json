@@ -12,7 +12,7 @@
     "qps": {
       "get": 1000,
       "set": null,
-      "delete": null
+      "del": null
     },
     "is_pii": false,
     "review_status": "COMPLETED",
@@ -33,7 +33,7 @@
     "qps": {
       "get": 1500,
       "set": null,
-      "delete": null
+      "del": null
     },
     "is_pii": false,
     "review_status": "IN_REVIEW",

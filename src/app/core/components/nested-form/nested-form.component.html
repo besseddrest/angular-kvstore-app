@@ -1,0 +1,52 @@
+<h4>Dataset Request Form</h4>
+<form *ngIf="myForm" [formGroup]="myForm">
+  Value: {{ myForm.value | json }}
+  <hr>
+  <mat-form-field>
+    <input matInput placeholder="Dataset Name" formControlName="name" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="LDAP" formControlName="owner" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Team Name" formControlName="team" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <textarea matInput placeholder="Describe what your dataset will be used for" formControlName="team" ></textarea>
+  </mat-form-field>
+
+  <div formGroupName="maxQps">
+    <mat-form-field>
+      <input matInput placeholder="e.g. 1000" formControlName="get" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="e.g. 100" formControlName="set" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="e.g. 10" formControlName="del" />
+    </mat-form-field>
+  </div>
+
+  <mat-form-field>
+    <input matCheckbox formControlName="is_pii" />
+  </mat-form-field>
+
+
+  <h4>Admin Form</h4>
+  <!-- 
+  Display fields below only if user is admin  
+    
+  Select input type
+  review_status
+  cluster
+  reviewer -->
+
+  <mat-form-field>
+    <input matInput placeholder="default 300" formControlName="partitions" />
+  </mat-form-field>
+</form>

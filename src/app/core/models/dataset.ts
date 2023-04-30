@@ -16,11 +16,11 @@ export interface Dataset {
   qps: {
     get: number | null,
     set?: number | null,
-    delete?: number | null,
+    del?: number | null,
   },
   is_pii: boolean,
   review_status: Statuses | null,
   partitions: number | null,
-  cluster: Clusters,
+  cluster: Clusters | null,
   reviewer: Admins | null,
 }
