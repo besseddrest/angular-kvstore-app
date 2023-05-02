@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Dataset } from '../../models/dataset';
+import { Dataset } from '../../../../models/dataset';
 
 @Component({
   selector: 'tr[app-row]',

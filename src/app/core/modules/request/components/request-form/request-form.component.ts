@@ -1,12 +1,12 @@
-import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { Component } from '@angular/core';
+import { FormGroup, FormBuilder } from '@angular/forms';
 
 @Component({
-  selector: 'app-nested-form',
-  templateUrl: './nested-form.component.html',
-  styleUrls: ['./nested-form.component.scss']
+  selector: 'app-request-form',
+  templateUrl: './request-form.component.html',
+  styleUrls: ['./request-form.component.scss']
 })
-export class NestedFormComponent implements OnInit {
+export class RequestFormComponent {
   myForm: FormGroup | null = null;
 
   constructor(private formBuilder: FormBuilder) {

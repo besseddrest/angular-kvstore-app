@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { NestedFormComponent } from './nested-form.component';
+import { RequestFormComponent } from './request-form.component';
 
-describe('NestedFormComponent', () => {
-  let component: NestedFormComponent;
-  let fixture: ComponentFixture<NestedFormComponent>;
+describe('RequestFormComponent', () => {
+  let component: RequestFormComponent;
+  let fixture: ComponentFixture<RequestFormComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NestedFormComponent ]
+      declarations: [ RequestFormComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(NestedFormComponent);
+    fixture = TestBed.createComponent(RequestFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
